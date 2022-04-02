@@ -1,0 +1,35 @@
+$font-style:'Roboto',sans-serif;
+
+#one-cert-detail{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+#cert-no{
+    background-color: rgb(155, 60, 244);
+    padding:5px 8px 5px 8px;
+    border-radius: 50%;
+    color:#fff;
+    font-size:12px;
+}
+
+#certs{
+    display: grid;
+    gap:15px;
+}
+
+#cert-link{
+    font-family: $font-style;
+    
+}
+
+#cert-delete{
+    margin-left:auto;
+    margin-right: 10px;
+}
+
+#cert-delete:hover{
+    cursor: pointer;
+}
+
